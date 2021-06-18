@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GithubTrendingRepo</string>
+    <string name="str_empty_github_list">No GitHub Repo Found</string>
+    <string name="text_font_regular" translatable="false">Roboto-Regular.ttf</string>
+    <string name="text_font_bold" translatable="false">Roboto-Bold.ttf</string>
+    <string name="text_font_light" translatable="false">Roboto-Light.ttf</string>
+    <string name="text_font_medium" translatable="false">Roboto-Medium.ttf</string>
+    <string name="str_airline">Airline</string>
+    <string name="str_retry">Retry</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="str_github_list">GitHub Trending Repository</string>
+</resources>

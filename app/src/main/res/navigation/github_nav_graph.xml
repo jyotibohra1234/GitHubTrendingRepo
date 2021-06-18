@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/github_nav_graph"
+    app:startDestination="@id/githubListFragment">
+
+    <fragment
+        android:id="@+id/githubListFragment"
+        android:name="com.example.githubtrendingrepo.ui.fragment.GithubListFragment"
+        android:label="GithubListFragment"
+        tools:layout="@layout/fragment_github_list">
+        <action
+            android:id="@+id/action_githubListFragment_to_gitHubDetailFragment"
+            app:destination="@id/gitHubDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gitHubDetailFragment"
+        android:name="com.example.githubtrendingrepo.ui.fragment.GitHubDetailFragment"
+        android:label="fragment_git_hub_detail"
+        tools:layout="@layout/fragment_git_hub_detail" >
+        <action
+            android:id="@+id/action_gitHubDetailFragment_to_githubListFragment"
+            app:destination="@id/githubListFragment" />
+    </fragment>
+</navigation>
